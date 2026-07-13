@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "FitTrack",
+    "slug": "fittrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./resources/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E1116",
+    "platforms": ["ios", "android", "web"],
+    "splash": {
+      "image": "./resources/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E1116"
+    },
+    "android": {
+      "package": "it.unisa.fittrack",
+      "adaptiveIcon": {
+        "foregroundImage": "./resources/adaptive-icon.png",
+        "backgroundColor": "#0E1116"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}
